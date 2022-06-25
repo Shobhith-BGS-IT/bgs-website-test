@@ -47,6 +47,10 @@ body {
     display: none;
 }
 
+.load iframe {
+    display: none;
+}
+
 /* Header */
 
 header {
