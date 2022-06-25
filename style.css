@@ -13,10 +13,6 @@
     box-sizing: border-box;
 }
 
-.space {
-    width: 100%;
-    height: 50vh;
-}
 
 a {
     text-decoration: none;
@@ -35,6 +31,16 @@ body {
     font-family: sans-serif;
     color: var(--clr-primary);
     height: 100%;
+}
+
+/* Preloader */
+
+#preloader {
+    background: url("content/preloader-gif.gif") no-repeat center, var(--clr-background) no-repeat center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 1000000000000000000000000000000000000000000000000;
 }
 
 /* Header */
@@ -94,7 +100,7 @@ header {
     white-space: nowrap;
     width: 100%;
     transition: all 1s ease-in-out;
-    z-index: 100000000000000;
+    z-index: 100000 ;
 }
 
 .nav-bar ul {
