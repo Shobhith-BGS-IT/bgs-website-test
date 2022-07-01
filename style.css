@@ -33,6 +33,28 @@ body {
     height: 100%;
 }
 
+/* scrool bar */
+
+::-webkit-scrollbar {
+    width: 1em;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--clr-lightest);
+    border-radius: 100vw;
+    margin-block: .5em;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--clr-light);
+    transition: all 200ms ease;
+    border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--clr-primary);
+}
+
 /* Preloader */
 
 #preloader {
