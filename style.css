@@ -52,7 +52,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--clr-primary);
+    background: rgb(112, 112, 112);
 }
 
 /* Preloader */
