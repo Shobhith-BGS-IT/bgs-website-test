@@ -548,6 +548,14 @@ footer {
 }
 
 .col p {
+    margin-right: 20px;
+}
+
+.col iframe {
+    border-radius: 12px;
+}
+
+.col p {
     padding: 10px;
 }
 .col h3 {
