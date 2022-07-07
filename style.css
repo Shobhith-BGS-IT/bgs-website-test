@@ -393,11 +393,11 @@ main {
 .about-text {
     width: 50%;
     text-align: center;
-    margin: 10px 100px;
+    margin: 10px 40px;
 }
 
 .about-text h1 {
-    margin-block: 50px;
+    margin-block: 40px;
     font-size: 4rem;
 }
 
