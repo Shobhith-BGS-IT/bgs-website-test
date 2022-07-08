@@ -127,21 +127,9 @@
             </ul>
         </div>
         <!-- Slider -->
-        <div class="slider">
-            <div class="slides">
-                <!-- Radio Buttons -->
-                <input type="radio" name="radio-btn" id="radio1">
-                <input type="radio" name="radio-btn" id="radio2">
-                <input type="radio" name="radio-btn" id="radio3">
-                <input type="radio" name="radio-btn" id="radio4">
-                <input type="radio" name="radio-btn" id="radio5">
-                <input type="radio" name="radio-btn" id="radio6">
-                <input type="radio" name="radio-btn" id="radio7">
-                <input type="radio" name="radio-btn" id="radio8">
-                <input type="radio" name="radio-btn" id="radio9">
-                <input type="radio" name="radio-btn" id="radio10">
-                <!-- Slides -->
-                <div class="slide first">
+        <div class="slider-outer">
+            <div class="slider">
+                <div class="slide active">
                     <img src="content/Vision (1).png" alt="">
                 </div>
                 <div class="slide">
@@ -171,34 +159,23 @@
                 <div class="slide">
                     <img src="content/slider-event-8.jpg" alt="">
                 </div>
-                <!-- Automatic navigation -->
-                <div class="navigation-auto-slider">
-                    <div class="auto-btn-1"></div>
-                    <div class="auto-btn-2"></div>
-                    <div class="auto-btn-3"></div>
-                    <div class="auto-btn-4"></div>
-                    <div class="auto-btn-5"></div>
-                    <div class="auto-btn-6"></div>
-                    <div class="auto-btn-7"></div>
-                    <div class="auto-btn-8"></div>
-                    <div class="auto-btn-9"></div>
-                    <div class="auto-btn-10"></div>
+                <div class="navigation">
+                    <i class="fas fa-chevron-left prev-btn"></i>
+                    <i class="fas fa-chevron-right next-btn"></i>
+                </div>
+                <div class="navigation-visibiity">
+                    <div class="slide-icon active"></div>
+                    <div class="slide-icon"></div>
+                    <div class="slide-icon"></div>
+                    <div class="slide-icon"></div>
+                    <div class="slide-icon"></div>
+                    <div class="slide-icon"></div>
+                    <div class="slide-icon"></div>
+                    <div class="slide-icon"></div>
+                    <div class="slide-icon"></div>
+                    <div class="slide-icon"></div>
                 </div>
             </div>
-                <!-- Manual Navigation -->
-                <div class="navigation-manual-slider">
-                    <label for="radio1" class="manual-btn"></label>
-                    <label for="radio2" class="manual-btn"></label>
-                    <label for="radio3" class="manual-btn"></label>
-                    <label for="radio4" class="manual-btn"></label>
-                    <label for="radio5" class="manual-btn"></label>
-                    <label for="radio6" class="manual-btn"></label>
-                    <label for="radio7" class="manual-btn"></label>
-                    <label for="radio8" class="manual-btn"></label>
-                    <label for="radio9" class="manual-btn"></label>
-                    <label for="radio10" class="manual-btn"></label>
-                </div>
-
         </div>
     </header>
     <!-- main -->
@@ -316,5 +293,6 @@
     <script src="javascript/navbar.js"></script>
     <script src="javascript/slider.js"></script>
     <script src="javascript/preloader.js"></script>
+
 </body>
 </html>
