@@ -3,6 +3,9 @@
     --clr-primary: #00887A;
     --clr-light: #77A6F7;
     --clr-lightest: #d4e3fc;
+
+    --clr-neutral-100: #fff;
+    --clr-neurtral-900: #333;
 }
 
 *,
