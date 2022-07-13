@@ -367,10 +367,13 @@ main {
 .about-text h1 {
     margin-block: 40px;
     font-size: 4rem;
+    margin: 50px;
 }
 
 .about-text p {
     font-size: 1.3rem;
+    line-height: 28px;
+    margin: 20px 0;
 }
 
 .about-img {
@@ -412,8 +415,9 @@ main {
     grid-template-areas: "image" "text" "link";
     border-radius: 18px;
     background: var(--clr-background);
-    box-shadow: 5px 5px 15px var(--clr-lightest);
+    box-shadow: 25px 5px 15px var(--clr-lightest);
     text-align: center;
+    margin: 25px 30px;
 }
 
 .card-image-1 {
