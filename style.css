@@ -426,7 +426,7 @@ main {
 
 .card-image-2 {
     grid-area: image;
-    background: url(content/slider-pic-3.jpg);
+    background: url(content/Modren-Tech-card.jpg) center;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
@@ -434,7 +434,7 @@ main {
 
 .card-image-3 {
     grid-area: image;
-    background: url(content/slider-pic-4.jpg);
+    background: url(content/clubs-bg.png);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
@@ -548,6 +548,11 @@ footer {
 }
 .col h3 {
     padding: 10px 14px;
+}
+
+.col span {
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 .col ul {
