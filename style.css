@@ -462,7 +462,7 @@ main {
 
 .card-image-6 {
     grid-area: image;
-    background: url(content/slider-pic-4.jpg);
+    background: url(content/card-infirmary.jpg);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
@@ -514,7 +514,7 @@ footer {
     left: 0;
     overflow: hidden;
     background-color: var(--clr-lightest);
-    padding: 60px 0 30px;
+    padding: 60px 0 0px;
     font-size: 1rem;
     line-height: 20px;
 }
@@ -598,4 +598,12 @@ footer {
 
 .footer-social a i:hover {
     color: var(--clr-light);
+}
+
+.copyright {
+    text-align: center;
+    background: var(--clr-primary);
+    color: var(--clr-lightest);
+    padding: 20px 0;
+    margin-top: 10px;
 }
