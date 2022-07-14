@@ -454,13 +454,21 @@ main {
 
 .card-image-5 {
     grid-area: image;
-    background: url(content/slider-pic-3.jpg);
+    background: url(content/card-library.JPG);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
 }
 
 .card-image-6 {
+    grid-area: image;
+    background: url(content/cards-labs.JPG);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.card-image-7 {
     grid-area: image;
     background: url(content/card-infirmary.jpg);
     border-top-left-radius: 15px;
