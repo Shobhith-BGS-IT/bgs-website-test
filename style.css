@@ -446,7 +446,7 @@ main {
 
 .card-image-4 {
     grid-area: image;
-    background: url(content/slider-pic-1.jpg);
+    background: url(content/Events-card.png);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
