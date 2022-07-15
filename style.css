@@ -556,6 +556,16 @@ footer {
     padding: 10px;
 }
 
+.footer-link {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.footer-link a {
+    margin: 5px;
+}
+
 .col h1 {
     padding: 10px 5px;
     white-space: nowrap;
@@ -577,10 +587,26 @@ footer {
     padding: 10px 14px;
 }
 
-.col span {
+/* .col span {
     font-size: 1.2rem;
     font-weight: 500;
 }
+.col a {
+    color:#E50D27;
+    margin-left: 10px;
+}
+
+.col a span{
+    color: blue;
+}
+
+.col a span:hover {
+    color: var(--clr-primary);
+}
+
+.col a:hover {
+    color: var(--clr-primary);
+} */
 
 .col ul {
     padding: 10px;
@@ -599,7 +625,7 @@ footer {
     margin-right: 5px;
 }
 
-.col ul li a:hover {
+.col a:hover {
     color: var(--clr-light);
 }
 
