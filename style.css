@@ -559,7 +559,7 @@ footer {
 .footer-link {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .footer-link a {
