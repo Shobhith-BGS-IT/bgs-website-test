@@ -590,12 +590,12 @@ footer {
     margin: 5px;
 }
 
-.col ul li a {
+.col a {
     color: var(--clr-primary);
     transition: all 250ms ease;
 }
 
-.col ul li a i {
+.col a i {
     margin-right: 5px;
 }
 
